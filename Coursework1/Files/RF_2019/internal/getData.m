@@ -137,7 +137,7 @@ switch MODE
   
         
         % Clear unused varibles to save memory
-        clearvars desc_tr desc_sel
+        %clearvars desc_tr desc_sel
 end
 
 switch MODE
@@ -183,7 +183,7 @@ switch MODE
         % write your own codes here
         % ...
         
-        
+       disp( 'nono' ) 
     otherwise % Dense point for 2D toy data
         xrange = [-1.5 1.5];
         yrange = [-1.5 1.5];
